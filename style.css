@@ -1,0 +1,350 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 1037px;
+  height: 631px;
+  border-radius: 8px 8px 0px 0px;
+  background: #0f0d13;
+}
+#boxleft {
+  width: auto;
+  height: auto;
+  border-radius: 9.603px;
+  background: #2a2141;
+  display: flex;
+  flex-direction: column;
+  padding: 38.41px;
+  gap: 28.81px;
+  align-items: center;
+}
+#boxleft img {
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
+#head {
+  width: 189.66px;
+  height: 52.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 9.6px;
+}
+h1,
+h3 {
+  width: 171px;
+  height: 24px;
+  color: #e1e1e6;
+  font-family: Roboto;
+  font-size: 24.007px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 0;
+}
+h2,
+h4 {
+  width: 155px;
+  height: 19px;
+  color: #e1e1e6;
+  font-family: Roboto;
+  font-size: 19.206px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 0;
+}
+#audio {
+  width: 189.66px;
+  height: 28.8px;
+  display: flex;
+  flex-direction: row;
+  gap: 50.42px;
+  justify-content: space-between;
+}
+button {
+  width: 28.809px;
+  height: 28.809px;
+  border: 0;
+}
+#left,
+#left1,
+#left2 {
+  width: 28.809px;
+  height: 28.809px;
+  background-image: url(assets/play-back.svg);
+  background-position: center;
+  background-color: transparent;
+}
+#center,
+#center1,
+#center2 {
+  width: 28.809px;
+  height: 28.809px;
+  background-image: url(assets/play.svg);
+  background-position: center;
+  background-color: transparent;
+}
+#right,
+#right1,
+#right2 {
+  width: 28.809px;
+  height: 28.809px;
+  background-image: url(assets/play-forward.svg);
+  background-position: center;
+  background-color: transparent;
+}
+#left:hover,
+#left1:hover,
+#left2:hover {
+  cursor: pointer;
+  background-image: url(assets/play-backHover.svg);
+}
+#center:hover,
+#center1:hover,
+#center2:hover {
+  cursor: pointer;
+  background-image: url(assets/playHover.svg);
+}
+#right:hover,
+#right1:hover,
+#right2:hover {
+  cursor: pointer;
+  background-image: url(assets/play-forwardHover.svg);
+}
+#left:focus,
+#left1:focus,
+#left2:focus {
+  background-image: url(assets/play-backFocus.svg);
+}
+#center:focus,
+#center1:focus,
+#center2:focus {
+  background-image: url(assets/playFocus.svg);
+}
+#right:focus,
+#right1:focus,
+#right2:focus {
+  background-image: url(assets/play-forwardFocus.svg);
+}
+#barra {
+  width: 189.66px;
+  height: 38.6px;
+  display: flex;
+  flex-direction: column;
+  gap: 9.6px;
+}
+input {
+  width: 189.66px;
+  height: 6px;
+  margin: 0;
+}
+input[type="range"]::-ms-track {
+  background-color: rgb(204, 24, 24);
+}
+#time-bar {
+  width: 189.66px;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#total-time,
+#total-time1,
+#remaining-time,
+#remaining-time1 {
+  width: 36px;
+  height: 23px;
+  color: #c4c4cc;
+  font-family: Roboto;
+  font-size: 14.404px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+#boxright {
+  width: auto;
+  height: auto;
+  border-radius: 9.603px;
+  background: #0f0d13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+#top,
+#bottom {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 28.81px;
+  border-radius: 9.603px;
+  background: #2a2141;
+  padding: 22px;
+}
+#box1 {
+  width: auto;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28.81px;
+  margin: 0;
+}
+#box1 img {
+  width: 84.026px;
+  height: 84.026px;
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
+#head1 {
+  width: 187.26px;
+  height: 52.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 9.6px;
+}
+#box2 {
+  width: auto;
+  height: 28.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#audio1,
+#audio2 {
+  width: 189.66px;
+  height: 28.8px;
+  display: flex;
+  flex-direction: row;
+  gap: 50.42px;
+  justify-content: space-between;
+}
+#box3 {
+  width: auto;
+  height: 38.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#barra1 {
+  width: 189.66px;
+  height: 38.6px;
+  display: flex;
+  flex-direction: column;
+  gap: 9.6px;
+}
+#box4 {
+  width: auto;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28.81px;
+}
+#box4 img {
+  width: 84.026px;
+  height: 84.026px;
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
+#box5 {
+  width: auto;
+  height: 28.1px;
+  display: flex;
+  justify-content: center;
+}
+#social-links {
+  position: absolute;
+  display: flex;
+  padding: 24px;
+  font-size: 24px;
+  margin-top: 550px;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+#social-links a:hover {
+  background: #2a2122;
+  box-shadow: inset 0 0 1em rgba(255, 217, 0, 0.692), 0 0 1em red;
+}
+a img {
+  width: 35px;
+  height: 35px;
+}
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-1deg);
+  }
+  20% {
+    transform: rotate(1deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-1deg);
+  }
+  80% {
+    transform: rotate(1deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+@media screen and (max-width: 1280px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 32px 32px 70px 32px;
+    margin: auto;
+  }
+  #top,
+  #bottom {
+    width: 230px;
+  }
+  h3 {
+    font-size: 20.007px;
+  }
+  #social-links {
+    margin-top: 1050px;
+  }
+}
